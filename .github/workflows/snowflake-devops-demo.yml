@@ -1,5 +1,5 @@
 name: snowflake-base-tables
-run-name: ${{ github.actor }} snowflake-base-tables
+run-name: Deploy to ${{ inputs.deploy_target }} ON  ${{github.workflow }} by @${{ github.actor }}
 
 # Controls when the action will run. 
 on:

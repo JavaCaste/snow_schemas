@@ -1,3 +1,5 @@
+USE SCHEMA DEMO;
+
 CREATE MASKING POLICY email_visibility_v3 AS
 (email string, visibility string) RETURNS string ->
   CASE 

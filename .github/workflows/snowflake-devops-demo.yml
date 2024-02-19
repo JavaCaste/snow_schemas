@@ -1,4 +1,5 @@
-name: snowflake-devops-demo
+name: snowflake-base-tables
+run-name: ${{ github.actor }} snowflake-base-tables
 
 # Controls when the action will run. 
 on:
